@@ -1,0 +1,35 @@
+.heading
+{
+font-size: 23px;
+width: 100%;
+margin: 0px;
+}
+
+#status
+{
+font-size: 18px;
+}
+
+body{
+    background-image: url('bg.jpg');
+    background-position: center;
+}
+
+canvas{
+    border: 2px ridge black;
+    border-radius: 100px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 100px;
+}
+
+@keyframes example{
+    from{
+        box-shadow: 2px 2px 20px rgb(0, 191, 255);
+    }
+
+    to{
+        box-shadow: 2px 2px 20px rgb(35, 211, 29);
+    }
+}
